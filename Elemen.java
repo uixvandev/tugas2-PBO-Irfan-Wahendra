@@ -10,7 +10,7 @@ public class Elemen {
 }
 
 class dosen extends Elemen {
-    /* extends salah satu bentuk awalan dari pembentukan POLYMORPHISME */
+    /* extends polymorphisme */
     private int jumlahHariKerja;
 
     public dosen(String name, int jumlahHariKerja) {
@@ -58,12 +58,8 @@ class asdos extends mahasiswa {
     }
 
     public void cetak() {
-        /*
-         * method cetak() adalah bentuk UPCASTING,
-         * karena mengubah referensi methodnya sendiri,dan tidak mengambil isi method
-         * atau referensi
-         * dari class induknya
-         */
+        //cetak adalah bentuk upcasting 
+      
         System.out.println(name + " adalah seorang asdos dengan jam sibuk " + jamSibuk);
     }
 }
